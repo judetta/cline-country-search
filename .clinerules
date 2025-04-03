@@ -1,0 +1,3 @@
+This project is about creating a front-end that gives information about countries.
+The UI is written in Angular, and this is what we're developing.
+The back end is described in [restcountries-examples.md](./restcountries-examples.md) file. Please read this file.
