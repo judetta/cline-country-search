@@ -34,7 +34,7 @@ jobs:
     - name: Install dependencies
       run: npm install
     - name: Build Angular app
-      run: ng build --prod
+      run: npx ng build --prod
   deploy:
     environment:
       name: github-pages
