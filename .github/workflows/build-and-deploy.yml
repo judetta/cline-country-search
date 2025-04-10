@@ -28,7 +28,7 @@ jobs:
     - name: Install dependencies
       run: npm install
     - name: Build Angular app
-      run: npx ng build
+      run: npx ng build --base-href /cline-country-search/
     - name: Upload build artifacts
       uses: actions/upload-pages-artifact@v3
       with:
