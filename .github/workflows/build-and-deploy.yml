@@ -33,7 +33,7 @@ jobs:
       uses: actions/upload-pages-artifact@v3
       with:
         name: github-pages
-        path: dist/countries/
+        path: dist/countries/browser
   deploy:
     needs: build
     # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
